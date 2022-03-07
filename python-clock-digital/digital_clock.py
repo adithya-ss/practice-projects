@@ -16,6 +16,7 @@ def update_time():
 
 # Create a window to display the clock
 window = Tk()
+window.title("Clock")
 window.configure(bg="black")
 
 time_label = Label(window, font=("Consolas",28), fg="yellow", bg="black")
